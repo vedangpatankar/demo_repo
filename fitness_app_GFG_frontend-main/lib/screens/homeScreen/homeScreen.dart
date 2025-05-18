@@ -207,7 +207,7 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(
                   height: size.height * 0.02,
                 ),
-                Container(
+                SizedBox(
                   width: size.width,
                   height: size.height * 0.2,
                   child: ListView(
@@ -297,7 +297,7 @@ class ImageStack extends StatelessWidget {
                 ),
               ),
               Text(
-                "$time",
+                time,
                 style: TextStyle(
                   fontSize: size.width * 0.035,
                   color: PrimaryColor,
